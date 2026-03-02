@@ -8,10 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
-
 import com.cognitask.cognitask_ai.entity.User;
 import com.cognitask.cognitask_ai.service.UserService;
-
 import java.util.List;
 
 @RestController
